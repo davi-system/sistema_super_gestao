@@ -1,0 +1,8 @@
+php artisan migrate
+php artisan make:migration name
+php artisan migrate:roolback
+php artisan migrate:roolback --step=2
+php artisan migrate:status
+php artisan migrate:reset
+php artisan migrate:refresh
+php artisan migrate:fresh
